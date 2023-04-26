@@ -1,6 +1,5 @@
-import { Hydrate, QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import Trade from "./trade";
-import App from "./_app";
 
 const MainPage = () => {
   const queryClient = new QueryClient()
@@ -11,5 +10,6 @@ const MainPage = () => {
     </QueryClientProvider>
   )
 }
+
 
 export default MainPage;
