@@ -50,6 +50,9 @@ const Trade = (props) => {
                         <th>{`국가 국문`}</th>
                         <th>{`수출 품목`}</th>
                         <th>{`수입 품목`}</th>
+                        <th>{`수출 금액`}</th>
+                        <th>{`수입 금액`}</th>
+                        <th>{`해당 연도`}</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -65,6 +68,9 @@ const Trade = (props) => {
                             <td>{country.country_nm}</td>
                             <td>{country.export_cn}</td>
                             <td>{country.income_cn}</td>
+                            <td>{country.yt_export_amount}</td>
+                            <td>{country.yt_income_amount}</td>
+                            <td>{country.yt_trade_year}</td>
                         </tr>
                     ))}
                 </tbody>
