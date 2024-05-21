@@ -1,34 +1,47 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/Z6rTDcqMJDD9nMAjOMFr4/_buildManifest.js",
+    "static/Z6rTDcqMJDD9nMAjOMFr4/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-4e7214a60fad8e88.js",
+      "static/chunks/framework-cda2f1305c3d9424.js",
+      "static/chunks/main-3e860ca836a44033.js",
+      "static/chunks/528-e7a9226953b9f272.js",
+      "static/chunks/pages/index-a4c7955d670ad302.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-4e7214a60fad8e88.js",
+      "static/chunks/framework-cda2f1305c3d9424.js",
+      "static/chunks/main-3e860ca836a44033.js",
+      "static/css/ad050a98d719009c.css",
+      "static/chunks/pages/_app-d78dda841717ef6c.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-4e7214a60fad8e88.js",
+      "static/chunks/framework-cda2f1305c3d9424.js",
+      "static/chunks/main-3e860ca836a44033.js",
+      "static/chunks/pages/_error-54de1933a164a1ff.js"
+    ],
+    "/common/Pagination": [
+      "static/chunks/webpack-4e7214a60fad8e88.js",
+      "static/chunks/framework-cda2f1305c3d9424.js",
+      "static/chunks/main-3e860ca836a44033.js",
+      "static/chunks/pages/common/Pagination-bfa124fb9af1070e.js"
+    ],
+    "/trade": [
+      "static/chunks/webpack-4e7214a60fad8e88.js",
+      "static/chunks/framework-cda2f1305c3d9424.js",
+      "static/chunks/main-3e860ca836a44033.js",
+      "static/chunks/528-e7a9226953b9f272.js",
+      "static/chunks/pages/trade-396214e766badcbe.js"
     ]
   },
   "ampFirstPages": []

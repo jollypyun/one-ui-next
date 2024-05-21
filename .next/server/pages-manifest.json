@@ -1,6 +1,9 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
+  "/api/getTradeList": "pages/api/getTradeList.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/_error": "pages/_error.js",
+  "/common/Pagination": "pages/common/Pagination.js",
+  "/": "pages/index.js",
+  "/trade": "pages/trade.js"
 }
